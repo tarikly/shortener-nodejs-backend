@@ -1,6 +1,7 @@
-import express from "express";
 import linksRouter from './routes/links';
-import cors from 'cors';
+
+var express = require('express')
+var cors = require('cors')
 
 const app = express();
 app.use(express.json());
